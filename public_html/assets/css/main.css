@@ -6,3 +6,23 @@
     margin: 0;
     padding: 0;
 }
+.contenedor{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 3em;
+    background: aliceblue;
+    text-align: center;
+}
+.item h2#titulo{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#results{
+    width:100%;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+        vertical-align: top;
+    justify-content: space-between;
+}
