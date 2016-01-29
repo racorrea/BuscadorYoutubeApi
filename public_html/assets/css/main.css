@@ -11,18 +11,57 @@
     max-width: 70%;
     margin: 0 auto;
     padding: 3em;
-    background: aliceblue;
     text-align: center;
 }
-.item h2#titulo{
+.videotube{
+        margin: .5em;
+    background: #ededed;
+    width: 25%;
+}
+#con_description h3#titulo{
     font-size: 14px;
     font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    
 }
 #results{
-    width:100%;
-    max-width: 70%;
-    margin: 0 auto;
     display: flex;
-        vertical-align: top;
-    justify-content: space-between;
+    display: -webkit-flex;
+    font-family: Arial;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#results1, #results2{
+    display: flex;
+    display: -webkit-flex;
+    font-family: Arial;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#search{
+    width: 400px;
+}
+#con_description{
+        padding-left: 1em;
+    padding-right: 1em;
+}
+
+iframe#videos{
+    min-height: 100%;
+    min-width: 100%;
+    overflow: auto;
+}
+p{
+    font-size: 12px;
+}
+.dte {
+    text-align: right;
+    background-color: #F5D626;
+    position: relative;
+    top: -1em;
+    padding-right: 1em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 0;
 }
